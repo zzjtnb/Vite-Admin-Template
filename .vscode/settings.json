@@ -1,0 +1,13 @@
+{
+  "cSpell.words": [
+    "downlevel",
+    "esnext",
+    "sourcemap",
+    "tailwindcss",
+    "tslib",
+    "typechecking",
+    "vite",
+    "vuex"
+  ],
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false
+}

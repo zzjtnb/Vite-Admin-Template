@@ -1,11 +1,16 @@
 @import url('https://cdn.bootcdn.net/ajax/libs/font-awesome/5.14.0/css/all.css');
-@import url("https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Ma+Shan+Zheng&display=swap" );
+/* @import url("https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Ma+Shan+Zheng&display=swap" );
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Ma+Shan+Zheng&family=Roboto:wght@700&display=swap');
 
 .maocao{
+	font-family: 'Roboto', sans-serif;
 font-family: 'Liu Jian Mao Cao', cursive;
+
 font-size: 1.5rem;
 }
 .shanzheng{
+font-family: 'Roboto', sans-serif;
 font-family: 'Ma Shan Zheng', cursive;
 font-size: 1.5rem;
 }

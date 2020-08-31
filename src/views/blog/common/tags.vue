@@ -1,10 +1,11 @@
 <template>
-  <div>标签</div>
+  <div>视频</div>
 </template>
 
 <script>
+
 export default {
-  data () {
+  data() {
     return {
 
     }
@@ -15,7 +16,8 @@ export default {
   methods: {
 
   },
-   components: {
+
+  components: {
 
   },
 }

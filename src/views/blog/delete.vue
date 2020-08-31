@@ -3,15 +3,26 @@
 </template>
 
 <script>
+
 export default {
   data() {
-    return {};
+    return {
+
+    }
   },
-  mounted() {},
-  methods: {},
-  components: {},
-};
+  mounted() {
+
+  },
+  methods: {
+
+  },
+
+  components: {
+
+  },
+}
 </script>
 
 <style scoped lang='scss'>
+
 </style>

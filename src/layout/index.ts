@@ -1,3 +1,3 @@
-import layout from './layout.vue'
+import DashboardLayout from './DashboardLayout.vue'
 
-export default layout
+export default DashboardLayout

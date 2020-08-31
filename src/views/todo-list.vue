@@ -1,28 +1,28 @@
 <template>
-<div>
   <div>
-    <label>新增待办</label>
-    <input v-model="state.todo" @keyup.enter="handleAddTodo" />
-  </div>
-  <div>
-    <h3>待办列表({{todos.length}})</h3>
+    <div>
+      <label>新增待办</label>
+      <input v-model="state.todo" @keyup.enter="handleAddTodo" />
+    </div>
+    <div>
+      <h3>待办列表({{todos.length}})</h3>
+      <ul>
+        <li v-for="item in todos" :key="item.id" @click="handleChangeStatus(item, true)">
+          <input type="checkbox" />
+          <label>{{item.text}}</label>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h3>已办列表({{dones.length}})</h3>
+    </div>
     <ul>
-      <li v-for="item in todos" :key="item.id" @click="handleChangeStatus(item, true)">
-        <input type="checkbox" />
+      <li v-for="item in dones" :key="item.id" @click="handleChangeStatus(item, false)">
+        <input type="checkbox" checked />
         <label>{{item.text}}</label>
       </li>
     </ul>
   </div>
-  <div>
-    <h3>已办列表({{dones.length}})</h3>
-  </div>
-  <ul>
-    <li v-for="item in dones" :key="item.id" @click="handleChangeStatus(item, false)">
-      <input type="checkbox" checked />
-      <label>{{item.text}}</label>
-    </li>
-  </ul>
-</div>
 </template>
 
 <script>

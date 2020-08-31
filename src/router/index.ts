@@ -5,9 +5,9 @@ import routes from './routes'
 const router = createRouter({
   // history: createWebHashHistory(),//hash模式
   history: createWebHistory(process.env.BASE_URL),//历史模式
-  routes,
-  linkActiveClass: "border-pink-500 text-white", // active class for non-exact links.
-  linkExactActiveClass: "border-pink-500 text-white" // active class for *exact* links.
+  routes: routes,
+  // linkActiveClass: " bg-gray-600 bg-opacity-25 border-gray-100 border-l-4 text-gray-100", // active class for non-exact links.
+  // linkExactActiveClass: " bg-gray-600 bg-opacity-25 border-gray-100 border-l-4 text-gray-100" // active class for *exact* links.
 })
 
 export default router

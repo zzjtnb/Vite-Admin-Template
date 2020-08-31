@@ -1,10 +1,15 @@
 <template>
-  <div>{{this.$store.state.menu}}</div>
+  <div>
+    {{this.$store.state.menu}}
+    {{frameInRoutes}}
+    {{$route}}
+  </div>
 </template>
 
 <script>
+import {frameInRoutes} from '../../router/routes'
 export default {
-  data() {
+  data () {
     return {
 
     }
@@ -15,8 +20,7 @@ export default {
   methods: {
 
   },
-
-  components: {
+   components: {
 
   },
 }

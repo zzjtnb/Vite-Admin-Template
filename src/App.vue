@@ -1,5 +1,4 @@
 <template>
-  {{layout}}
   <component :is="layout">
     <router-view />
   </component>
@@ -23,6 +22,5 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-// @import url('https://use.fontawesome.com/releases/v5.14.0/css/all.css');
-@import url('https://cdn.bootcdn.net/ajax/libs/font-awesome/5.14.0/css/all.css');
+
 </style>

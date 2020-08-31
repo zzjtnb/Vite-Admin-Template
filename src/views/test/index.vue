@@ -11,7 +11,7 @@ import {frameInRoutes} from '../../router/routes'
 export default {
   data () {
     return {
-
+     frameInRoutes
     }
   },
   mounted() {

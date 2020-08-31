@@ -38,7 +38,7 @@
 
 <script lang="ts">
 import {defineComponent,ref} from 'vue';
-import {frameInRoutes} from '../router/routes'
+import {frameInRoutes} from '../../router/routes'
 export default defineComponent({
   props: {
     sidebarOpen: {

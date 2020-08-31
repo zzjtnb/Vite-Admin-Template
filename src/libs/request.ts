@@ -15,7 +15,7 @@ let httpCode = {
 
 // 创建一个axios的自定义的实例service，并且可以自定义其配置
 const service = axios.create({
-  // baseURL: 'http://localhost:3000',
+
 })
 
 
